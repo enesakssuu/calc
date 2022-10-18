@@ -1,0 +1,115 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.calc {
+    width: 250px;
+    margin: auto;
+    background-color: rgb(34, 34, 34);
+    margin-top: 50px;
+}
+
+table {
+    background-color: rgb(34, 34, 34);
+
+}
+
+input {
+    width: 241px;
+    height: 80px;
+    background-color: rgb(34, 34, 34);
+    border: 0px solid transparent;
+    font-size: 40px;
+    text-align: right;
+    font-weight: 500;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+table .btnest {
+    width: 60px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn1 {
+    height: 40px;
+    background-color: #14141480;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.btndlt {
+    width: 60px;
+    height: 40px;
+    background-color: #14141480;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+table .btnop {
+    width: 60px;
+    height: 40px;
+    background-color: #14141480;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+table .btn {
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table .btnbos {
+    font-size: 8px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.btnop:hover,
+.btn:hover,
+.btn1:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+#gösterge,
+#islem {
+    background-color: rgb(34, 34, 34);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#gösterge {
+    height: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+}
+
+#gösterge:focus,
+#islem:focus {
+    background-color: rgb(34, 34, 34);
+}
